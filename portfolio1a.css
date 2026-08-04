@@ -374,6 +374,52 @@ nav a:hover::after {
     font-size: 0.75rem;
     margin-right: 5px;
 }
+#publications{
+    margin-top:70px;
+}
+
+.publication-card{
+    background:#1f1f1f;
+    border-radius:15px;
+    padding:25px;
+    transition:.3s;
+}
+
+.publication-card:hover{
+    transform:translateY(-5px);
+}
+
+.publication-card h3{
+    color:#fff;
+    margin-bottom:10px;
+    line-height:1.5;
+}
+
+.journal{
+    color:#ffb347;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.publication-desc{
+    color:#d3d3d3;
+    line-height:1.7;
+}
+
+.publication-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:10px 20px;
+    background:#00bcd4;
+    color:#fff;
+    border-radius:8px;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.publication-btn:hover{
+    background:#0097a7;
+}
 
 @media screen and (max-width: 1200px){
     .main-container{
